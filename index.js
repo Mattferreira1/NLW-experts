@@ -113,7 +113,7 @@ mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
         if(estaCorreta){
           corretas.add(item)
         }
-        mostrarTotal.textContent = corretas.size + 'de' + totalDePerguntas
+        mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
       }
       
       quizItem.querySelector('dl').appendChild(dt)
